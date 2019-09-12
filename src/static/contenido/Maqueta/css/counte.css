@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://images.homify.com/c_fill,f_auto,h_700,q_auto/v1496702562/p/photo/image/2044474/Vista_a_ventana_noche.jpg")
+}
+
+/* .counter {
+    background-color:#000000;
+
+    opacity: .5;
+  filter: alpha(opacity=50); 
+}
+
+.texto{
+
+    text-align: center;
+
+    /* border-radius: 0px 20px; */
+    /* border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    float:left;
+    position:relative;
+ } */ 
+
+
+ .counter {
+    text-align: center;
+    position: relative;
+    z-index: 5;
+
+    color: #FFF;
+    /* font-size: 400%; */
+    padding: 20px;
+    border-style: solid;
+  }
+  
+  .counter::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: black;
+      opacity: .7;
+  }
+
+  .mt-100{
+     margin-top: 50px
+  }

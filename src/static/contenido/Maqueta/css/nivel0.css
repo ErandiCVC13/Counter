@@ -1,0 +1,987 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: miso;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/misofont/miso-light-webfont.ttf);
+}
+
+/*PREVIOUS STYLES*/
+.mt-50 {
+  margin-top: 50px
+}
+
+.mt-40 {
+  margin-top: 40px
+}
+
+.mt-30 {
+  margin-top: 30px
+}
+
+.mt-20 {
+  margin-top: 20px
+}
+
+.mb-30 {
+  margin-bottom: 30px
+}
+
+.mb-40 {
+  margin-bottom: 40px
+}
+
+.mb-60 {
+  margin-top: 60px
+}
+
+.mo-container {
+  margin-left: 30%
+}
+
+.pl-0{
+  padding-left: 0% !important;
+}
+
+
+/* INICIA CAROUSEL */
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#myCarousel {
+  padding: 40px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  text-shadow: none !important;
+  background: none !important;
+  color: #858585 !important;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+  top: 30% !important;
+}
+
+.carousel-indicators li {
+  border: 1px solid #858585 !important;
+}
+
+.carousel-indicators .active {
+  background-color: #858585 !important;
+}
+
+.container-fluid {
+  margin-bottom: 50px;
+}
+
+.productos-mes-row {
+  margin-bottom: 35px;
+
+}
+
+/* TERMINA CAROUSEL */
+
+.font-miso {
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  font-size: 3em;
+
+}
+
+.font-helvetica {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.2em;
+  padding-bottom: 7px;
+}
+
+.font-helvetica-b {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.56em;
+  padding-bottom: 7px;
+}
+
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-miso-2 {
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  font-size: 2em;
+
+}
+
+.font-helvetica-2 {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: .9em;
+  padding-bottom: 7px;
+}
+
+.p-label-1 {
+
+  padding-top: 261px !important;
+
+  text-align: end !important;
+}
+
+.p-label-2 {
+
+padding-top: 53px !important;
+
+text-align: end !important;
+}
+
+.title-grid {
+  text-align: end !important;
+}
+
+.title-grid-2 {
+  text-align: start !important;
+}
+
+
+.a {
+  color: transparent
+}
+
+.nivel0-titulo {
+  font-size: 3.5em;
+  font-family: Helvetica, Arial, sans-serif !important;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -80px;
+
+}
+
+.niveles-p {
+  text-align: center;
+  color: #838383;
+  font-size: 1.6em;
+  margin-top: 20px;
+}
+
+.nivel0-cat {
+  color: #ffffff;
+  margin-top: -60px;
+  text-align: left;
+  padding: 10px;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  font-size: 1.6em
+}
+
+a.nivel-0section:hover,
+a.nivel-0section:active {
+  color: #ffffff !important;
+  text-decoration: underline;
+
+}
+
+.nivel0-cta {
+  color: #ffffff;
+  margin-top: -10px;
+  text-align: left;
+  padding: 10px;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+
+}
+
+.nivel0-sidebar {
+  font-family: Helvetica, Arial, sans-serif !important;
+  text-align: left;
+  padding: 20px;
+  font-size: 1.3em;
+
+}
+
+.nivel0-titulo-sidebar {
+  font-family: Helvetica, Arial, sans-serif !important;
+  text-align: left;
+  padding: 20px;
+  font-size: 1em;
+}
+
+.nivel0-subcategoria-sidebar {
+  font-family: Helvetica, Arial, sans-serif !important;
+  text-align: left;
+  padding-left: 20px;
+  font-size: .8em;
+  line-height: initial;
+
+}
+
+
+
+ul>p {
+  padding-bottom: 10px;
+}
+
+li>a {
+  text-decoration: none;
+  color: #858585;
+}
+
+li>a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+li>a:after {
+  text-decoration: none;
+  color: #858585;
+}
+
+ul>hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1.4px solid #333333 !important;
+}
+
+.padding-none {
+  padding: 0 !important;
+
+}
+
+.pad16 {
+  margin: 10px !important;
+}
+
+.pad17 {
+  border: 1px solid #F1F1F1;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  line-height: 1.2;
+  width: 100%
+}
+
+.lead1 {
+  font-size: 1.9em;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #373737;
+}
+
+.lead2 {
+  font-family: "monseSemibold", "monseRegular", "monseMedium", "monselight", Helvetica, Arial, sans-serif !important;
+  clear: left;
+  font-size: 1em;
+  padding-left: 10px;
+  color: #BFBFBF;
+  position: relative;
+}
+
+.lead3 {
+  font-size: 1.2em;
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  color: #BFBFBF;
+}
+
+.lead4 {
+  font-size: 2.5em;
+  text-align: left;
+  padding-left: 10px;
+  color: #0072ce;
+  margin-top: 20px
+}
+
+.lead5 {
+  float: right;
+  font-size: 1.6em;
+  padding: 5px;
+  color: #FFFFFF;
+  background-color: #dd0021;
+  position: relative;
+  top: -39px;
+  margin-right: 10px;
+}
+
+.productos-mes {
+  text-align: center;
+  margin: 0
+}
+
+.titulo-nota-blog {
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif !important;
+  width: 90%;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.cta-nota-blog {
+  color: red;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-weight: bold;
+  font-size: .8em;
+  margin-top: 10px;
+}
+
+.svgfle {
+  width: 73px;
+}
+
+.tpy1 {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.tpy2 {
+  position: absolute;
+  top: 30%;
+  left: 37%;
+  border: 3px #fff solid;
+  padding: 1em 3em;
+  font-size: 3vw;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  color: #FFF;
+  width: auto;
+}
+
+.btmas {
+  position: absolute;
+  top: 105%;
+  left: -2%;
+  width: 26vw;
+  background-color: transparent;
+}
+
+.tpy3 {
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  border: 3px #fff solid;
+  padding: .5em .8em;
+  font-size: 2.6vw;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  color: #FFF;
+  width: auto;
+}
+
+.btma1s {
+  position: absolute;
+  top: 120%;
+  left: -2%;
+  width: 15vw;
+  background-color: transparent;
+}
+
+.tpy4 {
+  position: absolute;
+  top: 41%;
+  left: 34%;
+  border: 3px #fff solid;
+  padding: .5em 1.3em;
+  font-size: 2.6vw;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  color: #FFF;
+  width: auto;
+}
+
+.btma2s {
+  position: absolute;
+  top: 120%;
+  left: -3%;
+  width: 15vw;
+  background-color: transparent;
+}
+
+.tpy5 {
+  position: absolute;
+  top: 44%;
+  left: 36%;
+  border: 3px #fff solid;
+  padding: .7em 1.3em;
+  font-size: 2.6vw;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  color: #FFF;
+  width: auto;
+}
+
+.row1 {
+  display: flex;
+}
+
+.coly1 {
+  flex-flow: column;
+  position: relative;
+  text-align: center;
+  background-color: #101010b3;
+}
+
+.tpy6 {
+  position: absolute;
+  top: 32%;
+  left: 36%;
+  font-size: 4rem;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  color: #FFF;
+  line-height: 1;
+}
+
+.tpy7 {
+  position: absolute;
+  top: 60%;
+  left: 39%;
+  font-size: 1.4rem;
+  color: #FFF;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+}
+
+.tpy8 {
+  position: absolute;
+  top: 32%;
+  left: 36%;
+  font-size: 4rem;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  color: #FFF;
+  line-height: 1;
+}
+
+.tpy9 {
+  position: absolute;
+  top: 60%;
+  left: 22%;
+  font-size: 1.4rem;
+  color: #FFF;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+}
+
+.btma3s {
+  position: absolute;
+  top: 134%;
+  left: 11%;
+  width: 22rem;
+  background-color: transparent;
+}
+
+.snpm {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.sty1 {
+  text-align: center;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  font-size: 2rem;
+}
+
+.sty1>div>p {
+  padding-top: 10px;
+}
+
+
+.tpy2a {
+  position: absolute;
+  top: 30%;
+  left: 26%;
+  border: 3px #fff solid;
+  padding: 1em 3em;
+  font-size: 3vw;
+  font-family: "miso", Helvetica, Arial, sans-serif !important;
+  color: #FFF;
+  width: auto;
+}
+
+
+.btmas1 {
+  position: absolute;
+  top: 105%;
+  left: 18%;
+  width: 26vw;
+  background-color: transparent;
+}
+
+
+
+.bgroja {
+  padding: 1rem;
+  background-color: #dd0021;
+  display: inline-block;
+  margin-top: -4px;
+  color: white;
+}
+
+.bgroja-g {
+  padding: 1.5rem;
+  background-color: #dd0021;
+  display: inline-block;
+  margin-top: 5px;
+  color: white;
+}
+
+.grid-1 {
+  padding-top: 20px;
+  /*background: #f5f7f8;*/
+  display: grid;
+  width: 100%;
+  /*max-width: 750px;*/
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr) 33vw;
+  grid-template-rows: repeat(2, 22rem);
+  grid-gap: 0px;
+}
+
+/* items */
+
+.grid-1 div {
+  color: black;
+  font-family: "monseSemibold", "monseRegular", "monseMedium", "monselight", Helvetica, Arial, sans-serif !important;
+  font-size: 14px;
+  padding: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+.reticula>div>section>a {
+  color: transparent !important;
+}
+
+div.scrollmenu {
+  
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: #777;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#element::-webkit-scrollbar {
+  display: none;
+}
+
+div.scrollmenu a:hover {
+  color: #0072CE;
+  background-color:rgb(230, 236, 240);
+}
+
+div.scrollmenu-2 { 
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu-2 a {
+  display: inline-block;
+  color: #777;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 80%
+}
+
+div.scrollmenu-2 a:hover {
+  color: #0072CE;
+  background-color:rgb(230, 236, 240);
+}
+
+div.scrollmenu-3 { 
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu-3 a {
+  display: inline-block;
+  color: #777;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 92%
+}
+
+div.scrollmenu-3 a:hover {
+  color: #0072CE;
+  
+}
+
+/* specific item styles */
+
+.item-1 {
+  background-image: url("../images/sodimac-muebles-organizacion-productos-principales-futon-lg.jpg");
+  background-size: cover;
+  grid-column: 1/ span 2;
+  grid-row: 1 / span 2;
+}
+
+.item-3 {
+  background-image: url("../images/sodimac-muebles-organizacion-productos-principales-sillas-desktop.jpg");
+  background-repeat: none;
+  background-size: cover;
+  grid-column: 3;
+  grid-row: 1 / span 1;
+}
+
+.item-6 {
+  background-image: url("../images/sodimac-muebles-organizacion-productos-principales-terraza-desktop.jpg");
+  background-size: cover;
+  background-repeat: none;
+  grid-column: 3;
+  grid-row: 2 / span 1;
+}
+
+/* media query */
+@media screen and (max-width: 2000px) {
+  .a1 {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 2560px) {
+  .bgroja {
+    padding: 10px;
+    margin-top: 3px;
+  }
+
+  .bgroja-g {
+    padding: 2rem;
+    margin-top: 15px;
+  }
+
+  .font-helvetica-2 {
+    padding-bottom: -1px;
+  }
+
+  .font-helvetica {
+    padding-bottom: .8vw;
+  }
+
+  .font-helvetica-b {
+    font-family: Helvetica, Arial, sans-serif !important;
+    padding-bottom: -1vw;
+  }
+
+  .grid-1 {
+    padding-top: 20px;
+    /*background: #f5f7f8;*/
+    display: grid;
+    width: 100%;
+    /*max-width: 750px;*/
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr) 35vw;
+    grid-template-rows: repeat(2, 30rem);
+    grid-gap: 0px;
+  }
+
+  /* items */
+
+  .grid-1 div {
+    color: black;
+    font-family: "monseSemibold", "monseRegular", "monseMedium", "monselight", Helvetica, Arial, sans-serif !important;
+    font-size: 20px;
+    padding: 22px;
+  }
+
+
+  /* specific item styles */
+
+  .item-1 {
+  background-image: url("../images/sodimac-muebles-organizacion-productos-principales-futon-1236x1000.jpg");
+  background-size: cover;
+  background-repeat: none;
+  }
+
+  .item-3 {
+    background-image: url("../images/sodimac-muebles-organizacion-productos-principales-sillas-794x526.jpg");
+    background-size: cover;
+    background-repeat: none;
+
+  }
+
+  .item-6 {
+    background-image: url("../images/sodimac-muebles-organizacion-productos-principales-terraza-794x373.jpg");
+    background-repeat: none;
+  }
+
+  .p-label-1 {
+    padding-top: 387px !important;
+    text-align: end !important;
+  }
+
+  .p-label-2 {
+    padding-top: 117px !important;
+    text-align: end !important;
+  }
+
+}
+
+@media only screen and (max-width: 1500px) {
+  .bgroja {
+    padding: 10px;
+    margin-top: 3px;
+  }
+
+  .bgroja-g {
+    padding: 2rem;
+    margin-top: 15px;
+  }
+
+  .font-helvetica-2 {
+    padding-bottom: -1px;
+  }
+
+  .font-helvetica {
+    padding-bottom: .8vw;
+  }
+
+  .font-helvetica-b {
+    font-family: Helvetica, Arial, sans-serif !important;
+    padding-bottom: -1vw;
+  }
+
+  .grid-1 {
+    padding-top: 20px;
+    /*background: #f5f7f8;*/
+    display: grid;
+    width: 100%;
+    /*max-width: 750px;*/
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr) 35vw;
+    grid-template-rows: repeat(2, 25rem);
+    grid-gap: 0px;
+  }
+
+  /* items */
+
+  .grid-1 div {
+    color: black;
+    font-family: "monseSemibold", "monseRegular", "monseMedium", "monselight", Helvetica, Arial, sans-serif !important;
+    font-size: 20px;
+    padding: 17px;
+  }
+
+
+  /* specific item styles */
+
+  .item-1 {
+  background-image: url("../images/sodimac-muebles-organizacion-productos-principales-futon-desktop.jpg");
+  background-size: cover;
+  background-repeat: none;
+  }
+
+  .item-3 {
+    background-image: url("../images/sodimac-muebles-organizacion-productos-principales-sillas-desktop.jpg");
+    background-size: cover;
+    background-repeat: none;
+
+  }
+
+  .item-6 {
+    background-image: url("../images/sodimac-muebles-organizacion-productos-principales-terraza-desktop.jpg");
+    background-repeat: none;
+  }
+
+  .p-label-1 {
+    padding-top: 308px !important;
+    text-align: end !important;
+  }
+
+  .p-label-2 {
+    padding-top: 84px !important;
+    text-align: end !important;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .bgroja {
+    padding: 5px;
+    margin-top: -8px;
+  }
+
+  .bgroja-g {
+    padding: 1.5rem;
+    margin-top: 5px;
+  }
+
+
+
+  .grid-1 {
+    padding-top: 20px;
+    /*background: #f5f7f8;*/
+    display: grid;
+    width: 100%;
+    /*max-width: 750px;*/
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr) 35vw;
+    grid-template-rows: repeat(2, 18rem);
+    grid-gap: 0px;
+  }
+
+  /* items */
+
+  .grid-1 div {
+    color: black;
+    font-family: "monseSemibold", "monseRegular", "monseMedium", "monselight", Helvetica, Arial, sans-serif !important;
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  /* specific item styles */
+
+  .item-1 {
+  background-image: url("../images/sodimac-muebles-organizacion-productos-principales-futon-desktop.jpg");
+    
+    background-size: contain;
+    background-repeat: none;
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 2;
+  }
+
+  .item-3 {
+    background-image: url("../images/sodimac-muebles-organizacion-productos-principales-sillas-desktop.jpg");
+    background-size: cover;
+    background-repeat: none;
+    grid-column: 3;
+    grid-row: 1 / span 1;
+  }
+
+  .item-6 {
+    background-image: url("../images/sodimac-muebles-organizacion-productos-principales-terraza-desktop.jpg");    
+    background-repeat: none;
+    grid-column: 3;
+    grid-row: 2 / span 1;
+  }
+
+  .p-label-1 {
+
+    padding-top: 206px !important;
+
+    text-align: end !important;
+
+  }
+
+  .p-label-2 {
+
+    padding-top: 51px !important;
+
+    text-align: end !important;
+
+  }
+
+
+}
+
+@media only screen and (max-width: 875px) {
+  .bgroja {
+    padding: 5px;
+    margin-top: -8px;
+  }
+
+  .bgroja-g {
+    padding: 1rem;
+    margin-top: 2px;
+  }
+
+  .font-helvetica-2 {
+    padding-bottom: -1px;
+  }
+
+  .font-helvetica {
+    padding-bottom: .2vw;
+  }
+
+  .font-helvetica-b {
+    font-family: Helvetica, Arial, sans-serif !important;
+    padding-bottom: -1vw;
+  }
+
+  .grid-1 {
+    padding-top: 20px;
+    /*background: #f5f7f8;*/
+    display: grid;
+    width: 100%;
+    /*max-width: 750px;*/
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr) 35vw;
+    grid-template-rows: repeat(2, 14rem);
+    grid-gap: 0px;
+  }
+
+  /* items */
+
+  .grid-1 div {
+    color: black;
+    font-family: "monseSemibold", "monseRegular", "monseMedium", "monselight", Helvetica, Arial, sans-serif !important;
+    font-size: 11px;
+    padding: 10px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+
+  /* specific item styles */
+
+  .item-1 {
+  background-image: url("../images/sodimac-muebles-organizacion-productos-principales-futon-1236x1000.jpg");
+    background-size: contain;
+    background-repeat: none;
+
+  }
+
+  .item-3 {
+    background-image: url("../images/sodimac-muebles-organizacion-productos-principales-sillas-794x526.jpg");
+    background-size: cover;
+    background-repeat: none;
+
+  }
+
+  .item-6 {
+    background-image: url("../images/sodimac-muebles-organizacion-productos-principales-terraza-794x373.jpg");
+    background-repeat: none;
+  }
+
+  .p-label-1 {
+    padding-top: 148px !important;
+    text-align: end !important;
+  }
+
+  .p-label-2 {
+    padding-top: 22px !important;
+    text-align: end !important;
+  }
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  .padding-bottom {
+    padding-bottom: 0px !important;
+  }
+
+  .nivel0-cat {
+    font-size: 1.2em;
+  }
+
+  .nivel0-titulo-sidebar {
+
+    font-size: .9em;
+  }
+
+}
+
+

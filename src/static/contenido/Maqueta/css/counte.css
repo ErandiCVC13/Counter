@@ -231,6 +231,14 @@ a {
     width: 15vw;
   }
 
+  .mt-counter {
+    margin-top: 1vw;
+  }
+
+  .mt-iconos {
+    margin-top: 40% !important;
+  }
+
 }
 
 @media (max-width: 425px) and (min-width: 1px) {

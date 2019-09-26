@@ -113,7 +113,7 @@ select {
   color: #FFF
 }
 
-a{
+a {
   color: #FFF !important;
   text-decoration: none !important;
 }
@@ -212,13 +212,23 @@ a{
   }
 
   .text-body {
- 
-font-size: 3.4vw;
- 
-}
+
+    font-size: 3.4vw;
+
+  }
 
   .mt-img {
-    margin-top: 0%;}
+    margin-top: 0%;
+  }
+
+
+  .mt-mobile {
+    margin-top: 6% !important;
+  }
+
+  .width-img {
+    width: 15vw;
+  }
 
 }
 
@@ -234,7 +244,7 @@ font-size: 3.4vw;
 
   .text-body {
 
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
   .width-img {
@@ -279,19 +289,27 @@ font-size: 3.4vw;
     margin-top: -3vw !important;
   }
 
-  .mt-20{
-  margin-top: 3px !important;
+  .mt-20 {
+    margin-top: 3px !important;
   }
 
-  .mt-mobile{
+  .mt-mobile {
     margin-top: 11% !important;
   }
 
-  .container-fluid{
+  .container-fluid {
     margin-bottom: 0% !important;
   }
 
-  .mt-iconos{
-    margin-top: 20% !important;
+  .mt-iconos {
+    margin-top: 40% !important;
+  }
+
+  .mt-30 {
+    margin-top: 0% !important;
+  }
+
+  .mt-counter {
+    margin-top: 1vw;
   }
 }

@@ -110,6 +110,7 @@ select {
   box-sizing: border-box;
   background-color: black;
   opacity: .7;
+  color: #FFF
 }
 
 .btn-red- {

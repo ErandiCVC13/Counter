@@ -78,7 +78,7 @@ body {
 }
 
 .mt-counter {
-  margin-top: 14vw;
+  margin-top: 20vw;
 }
 
 .mt-img {
@@ -159,6 +159,9 @@ a {
     padding-right: 0 !important;
     margin-top: -1vw !important;
   }
+
+  .mt-counter {
+    margin-top: 35vw;}
 }
 
 @media (max-width: 768px) and (min-width: 426px) {

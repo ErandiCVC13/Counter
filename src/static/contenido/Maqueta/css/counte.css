@@ -113,6 +113,11 @@ select {
   color: #FFF
 }
 
+a{
+  color: #FFF !important;
+  text-decoration: none !important;
+}
+
 .btn-red- {
   width: 50%;
   margin: 1.8vw 0;

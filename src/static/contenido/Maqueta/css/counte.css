@@ -216,6 +216,9 @@ a{
     font-size: 4vw;
   }
 
+  .mt-img {
+    margin-top: 0%;}
+
 }
 
 @media (max-width: 425px) and (min-width: 1px) {
@@ -277,5 +280,13 @@ a{
 
   .mt-20{
   margin-top: 3px !important;
+  }
+
+  .mt-mobile{
+    margin-top: 11% !important;
+  }
+
+  .container-fluid{
+    margin-bottom: 0% !important;
   }
 }

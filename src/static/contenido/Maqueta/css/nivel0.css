@@ -8,6 +8,10 @@
   src: url(../fonts/misofont/miso-light-webfont.ttf);
 }
 
+body {
+  background-image: url("../static/contenido/Maqueta/images/buenfin-background-desktop.jpg")
+}
+
 /*PREVIOUS STYLES*/
 .mt-50 {
   margin-top: 50px

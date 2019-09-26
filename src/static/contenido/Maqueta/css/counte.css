@@ -1,5 +1,31 @@
 body {
-    background-image: url("https://images.homify.com/c_fill,f_auto,h_700,q_auto/v1496702562/p/photo/image/2044474/Vista_a_ventana_noche.jpg")
+  margin: 0%;
+  padding: 0%;
+  background-image: url("../images/buenfin-background-desktop.jpg");
+  /* background-attachment: fixed; */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  width: 100%;
+
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+
+.btn-ctg {
+  margin: 3vw;
+  border: solid white 1px;
+  width: 71%;
+  height: 89px;
+  font-size: 1.3vw;
+  padding: 1vw;
+}
+
+.text-body {
+  color: #FFF;
+  line-height: 1.5 !important;
+  font-size: 2vw;
 }
 
 /* .counter {
@@ -14,37 +40,232 @@ body {
     text-align: center;
 
     /* border-radius: 0px 20px; */
-    /* border-style: solid;
+/* border-style: solid;
     border-color: #FFFFFF;
     color: #FFFFFF;
     float:left;
     position:relative;
- } */ 
+ } */
 
 
- .counter {
-    text-align: center;
-    position: relative;
-    z-index: 5;
+.counter {
+  font-family: Helvetica, Arial, sans-serif !important;
+  text-align: center;
+  position: relative;
+  z-index: 5;
 
+  color: #FFF;
+  /* font-size: 400%; */
+  padding: 20px;
+  border-style: solid;
+}
+
+.counter::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: .7;
+}
+
+.mt-100 {
+  margin-top: 50px
+}
+
+.mt-counter {
+  margin-top: 14vw;
+}
+
+.mt-img {
+  margin-top: 7%;
+}
+
+.px-7 {
+  padding-left: 7% !important;
+  padding-right: 7% !important
+}
+
+.font-cont {
+  font-size: 1.3vw;
+  font-weight: bold;
+  margin-top: 2.7vw;
+}
+
+.font-4 {
+  font-size: 4vw;
+}
+
+input[type=text],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  background-color: black;
+  opacity: .7;
+}
+
+.btn-red- {
+  width: 50%;
+  margin: 1.8vw 0;
+  display: inline-block;
+  color: #FFF;
+  border-radius: 0px;
+  box-sizing: border-box;
+  background-color: #dd0021;
+  padding: 1vw 0vw;
+  font-size: 1.5vw;
+
+}
+
+.col-pr-0 {
+
+  padding-right: 0 !important;
+  margin-top: -0vw !important;
+}
+
+@media (max-width: 1020px) and (min-width: 769px) {
+
+  body {
+    background-image: url("../images/buenfin-background-1024.jpg");
+  }
+
+  .text-body {
     color: #FFF;
-    /* font-size: 400%; */
-    padding: 20px;
-    border-style: solid;
-  }
-  
-  .counter::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: black;
-      opacity: .7;
+    line-height: 1.5 !important;
+    font-size: 3vw;
   }
 
-  .mt-100{
-     margin-top: 50px
+  .width-img {
+    width: 22vw;
   }
+
+  .col-pr-0 {
+
+    padding-right: 0 !important;
+    margin-top: -1vw !important;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+
+  body {
+    background-image: url("../images/buenfin-background-768.jpg");
+  }
+
+  .text-body {
+    color: #FFF;
+    line-height: 1.5 !important;
+    font-size: 3vw;
+  }
+
+  .width-img {
+    width: 22vw;
+  }
+
+  .btn-ctg {
+    margin: 3vw;
+    border: solid white 1px;
+    width: 85%;
+    height: 89px;
+    font-size: 2.3vw;
+    padding: 1vw;
+  }
+
+  input[type=text],
+  select {
+    width: 70%;
+  }
+
+  .col-pr-0 {
+
+    padding-right: 0 !important;
+    margin-top: -1.5vw !important;
+  }
+
+  .btn-ctg {
+    margin: 3vw;
+    border: solid white 1px;
+    width: 92%;
+    height: 89px;
+    font-size: 3vw;
+    padding: 1vw;
+  }
+
+  .font-cont {
+    font-size: 2vw;
+    font-weight: 600;
+    margin-top: .7vw;
+  }
+
+}
+
+@media (max-width: 425px) and (min-width: 1px) {
+
+  body {
+    background-image: url("../images/buenfin-background-425.jpg");
+  }
+
+  .mt-img {
+    margin-top: 1%;
+  }
+
+  .text-body {
+    color: #FFF;
+    line-height: 1.5 !important;
+    font-size: 6vw;
+  }
+
+  .width-img {
+    width: 22vw;
+  }
+
+  .font-cont {
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 1vw;
+  }
+
+  .btn-red- {
+    width: 50%;
+    margin: 1.8vw 0;
+    display: inline-block;
+    color: #FFF;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-color: #dd0021;
+    padding: 3vw 0vw;
+    font-size: 5vw;
+  }
+
+  .btn-ctg {
+    margin: 3vw;
+    border: solid white 1px;
+    width: 92%;
+    height: 89px;
+    font-size: 4.3vw;
+    padding: 1vw;
+  }
+
+  input[type=text],
+  select {
+    width: 70%;
+  }
+
+  .col-pr-0 {
+
+    padding-right: 0 !important;
+    margin-top: -3vw !important;
+  }
+
+  .mt-20{
+  margin-top: 3px !important;
+  }
+}
